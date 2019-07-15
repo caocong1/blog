@@ -12,7 +12,7 @@ module.exports = {
     copyrights: '',
     author: `@caocong`,
     logo: {
-      src: '',yarn
+      src: '',
       alt: ''
     },
     logoText: '你好 世界',
