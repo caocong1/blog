@@ -7,15 +7,15 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `Hello Friend`,
-    description: `A simple starter for Gatsby. That's it.`,
+    title: `你好 世界`,
+    description: `A simple page for me. That's it.`,
     copyrights: '',
-    author: `@panr`,
+    author: `@caocong`,
     logo: {
-      src: '',
-      alt: '',
+      src: '',yarn
+      alt: ''
     },
-    logoText: 'hello friend',
+    logoText: '你好 世界',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
@@ -23,17 +23,17 @@ module.exports = {
     mainMenu: [
       {
         title: 'About',
-        path: '/about',
+        path: '/about'
       },
       {
         title: 'Showcase',
-        path: '/showcase',
+        path: '/showcase'
       },
       {
         title: 'Example',
-        path: '/example',
-      },
-    ],
+        path: '/example'
+      }
+    ]
   },
   plugins: [
     `babel-preset-gatsby`,
@@ -42,22 +42,22 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+        path: `${__dirname}/src/images`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `posts`,
-        path: `${__dirname}/src/posts`,
-      },
+        path: `${__dirname}/src/posts`
+      }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}/src/pages`,
-      },
+        path: `${__dirname}/src/pages`
+      }
     },
     {
       resolve: `gatsby-plugin-postcss`,
@@ -70,13 +70,13 @@ module.exports = {
           postCssPresetEnv({
             importFrom: 'src/styles/variables.css',
             stage: 1,
-            preserve: false,
+            preserve: false
           }),
           cssnano({
-            preset: 'default',
-          }),
-        ],
-      },
+            preset: 'default'
+          })
+        ]
+      }
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -88,15 +88,15 @@ module.exports = {
             resolve: 'gatsby-remark-embed-video',
             options: {
               related: false,
-              noIframeBorder: true,
-            },
+              noIframeBorder: true
+            }
           },
           {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 800,
-              quality: 100,
-            },
+              quality: 100
+            }
           },
           {
             resolve: `gatsby-remark-prismjs`,
@@ -105,11 +105,11 @@ module.exports = {
               inlineCodeMarker: null,
               aliases: {},
               showLineNumbers: false,
-              noInlineHighlight: false,
-            },
-          },
-        ],
-      },
+              noInlineHighlight: false
+            }
+          }
+        ]
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
@@ -120,8 +120,8 @@ module.exports = {
         background_color: `#292a2d`,
         theme_color: `#292a2d`,
         display: `minimal-ui`,
-        icon: `src/images/hello-icon.png`,
-      },
-    },
-  ],
+        icon: `src/images/hello-icon.png`
+      }
+    }
+  ]
 }
