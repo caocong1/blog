@@ -55,6 +55,13 @@ rules:
   operator-linebreak:
     - 2
     - after
+  linebreak-style:
+    - 0
+    - error
+    - windows
+  comma-dangle:
+    - 2
+    - never
 
   react/jsx-filename-extension: 0
   react/jsx-one-expression-per-line: 0

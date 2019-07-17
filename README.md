@@ -1,6 +1,6 @@
  # Hello Friend
 
-![Hello Friend](https://github.com/panr/hugo-theme-hello-friend/blob/master/images/screenshot.png?raw=true)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ab5bd2ee-8c31-4523-85cc-f3c3f63c9438/deploy-status)](https://app.netlify.com/sites/objectnotfound/deploys)
 
 This starter was made to help you present your ideas easier. We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.
 

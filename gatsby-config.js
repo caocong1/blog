@@ -7,7 +7,7 @@ const postCSSMixins = require('postcss-mixins')
 
 module.exports = {
   siteMetadata: {
-    title: `你好 世界`,
+    title: `OBJECT NOT FOUND`,
     description: `A simple page for me. That's it.`,
     copyrights: '',
     author: `@caocong`,
@@ -15,7 +15,7 @@ module.exports = {
       src: '',
       alt: ''
     },
-    logoText: '你好 世界',
+    logoText: 'OBJECT NOT FOUND',
     defaultTheme: 'dark',
     postsPerPage: 5,
     showMenuItems: 2,
