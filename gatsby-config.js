@@ -22,6 +22,10 @@ module.exports = {
     menuMoreText: 'Show more',
     mainMenu: [
       {
+        title: 'Tools',
+        path: '/tools'
+      },
+      {
         title: 'About',
         path: '/about'
       },

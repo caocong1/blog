@@ -1,19 +1,12 @@
 ---
-title: "Hello Friend"
+title: "你好世界"
 path: "/hello"
-date: "2019-01-17"
+date: "2019-07-17"
 coverImage: "../images/hello.jpg"
-author: "Elliot"
-excerpt: '"Hello, friend?" That''s lame. Maybe I should give you a name...'
-tags: ["rob____ot", "hello friend"]
+author: "caocong"
+excerpt: '这个博客的第一个文章'
+tags: ["me", "hello world"]
 ---
 
-> "Hello, friend?" That's lame. Maybe I should give you a name...\
-> But that's a slippery slope.\
-> You're only in my head.\
-> We have to remember that...\
-> Shit.\
-> It's actually happened.\
-> I'm talking to an imaginary person.
->
-> **— Mr. Robot S01E01**
+> God's in his heaven.All's right with the world!
+
