@@ -31,7 +31,8 @@ const Post = ({
           {excerpt ? <Link to={path}>{title}</Link> : title}
         </h1>
         <div className={style.meta}>
-          {date} {author && <>— Written by {author}</>}
+          {date} 
+          {/* {author && <>— Written by {author}</>} */}
           {tags ? (
             <div className={style.tags}>
               {tags.map(tag => (

@@ -1,0 +1,17 @@
+---
+title: "随记"
+path: "/2019072201"
+date: "2019-07-22"
+author: "caocong"
+excerpt: '滚动停在最下'
+tags: ["javascript", "scroll"]
+---
+
+滚动停在最下
+```
+  receiveBox.scrollTo({
+    top: receiveBox.scrollHeight,
+    behavior: "smooth"
+  })
+```
+

@@ -3,7 +3,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
   padding: 20px;
 
   :global .dark-theme :local & {
@@ -43,7 +46,7 @@
   display: inline-block;
   width: 10px;
   height: 1rem;
-  background: #fe5186;
+  background: #81C784;
   margin-left: 5px;
   border-radius: 1px;
   animation: cursor 1s infinite;
